@@ -118,7 +118,7 @@ const handleAvatarSuccess = response => {
   brand.value.logo = response.data
 }
 
-// Save or update data
+
 const saveOrUpdate = () => {
   if (!brand.value.id) {
     saveData()
